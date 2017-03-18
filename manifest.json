@@ -1,6 +1,6 @@
 {
   "name": "Copy link to current tab",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Copies link to current tab in HTML format, with title and URL.",
   "manifest_version": 2,
   "background": {
@@ -12,7 +12,8 @@
   "offline_enabled": true,
   "browser_action": {
     "default_title": "Copy link"
-  }
-
-
+  },
+  "permissions": [
+    "management"
+  ]
 }
